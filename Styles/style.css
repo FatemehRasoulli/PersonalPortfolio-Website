@@ -604,7 +604,7 @@ span{
         left: 7px;
     }
     .timeline-item:nth-child(odd){
-        padding-right: o;
+        padding-right: 0;
         text-align: left;
     }
     .timeline-item:nth-child(odd),
@@ -626,8 +626,14 @@ span{
     .footer{
         padding: 2rem 3%;
     }
+    .services-box .service-info {
+    text-align: center;        
+    align-items: center;       
+    justify-content: center;   
+    padding: 3rem 2rem;        
+    }
+}
 
-} 
 
 @media (max-width:895px){
     #menu-icon{
@@ -665,15 +671,20 @@ span{
     }
     .home-contant h1{
         font-size: 8rem;
-        margin-top: 3rem;
+        margin-top: -9rem;
     }
     .home-contant p{
         max-width: 600px;
         margin:  0 auto;
     }
-    .home-img  img {
-        width: 56vw;
+    .home-img img {
+        height: 300px;
+        width: 300px;
     }
+    /* .home-img  img {
+        width: 100%;
+        height: 100%;
+    } */
     .services h2{
         margin-bottom: 3rem;
     }
