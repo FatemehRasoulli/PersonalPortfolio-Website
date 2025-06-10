@@ -627,12 +627,13 @@ span{
         padding: 2rem 3%;
     }
     .services-box .service-info {
-    text-align: center;        
-    align-items: center;       
+    text-align: center;       
+    align-items: center;      
     justify-content: center;   
     padding: 3rem 2rem;        
     }
 }
+
 
 
 @media (max-width:895px){
@@ -663,23 +664,25 @@ span{
     }
     .home{
         flex-direction: column-reverse;
-        margin: 5rem 4rem;
+        margin: 5rem 2rem;
     }
 
     .home-contant h3{
-        font-size: 2.6rem;
+        font-size: 2.5rem;
     }
     .home-contant h1{
-        font-size: 8rem;
-        margin-top: -9rem;
+        font-size: 5rem;
+        margin-top: 1.5rem;
     }
     .home-contant p{
         max-width: 600px;
         margin:  0 auto;
     }
     .home-img img {
-        height: 300px;
-        width: 300px;
+        width: 70vh;
+        height: 70vh;
+        max-width: 350px;
+        max-height: 350px;
     }
     /* .home-img  img {
         width: 100%;
